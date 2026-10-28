@@ -1,5 +1,6 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-
+<!DOCTYPE html>
+<html lang="sr-Cyrl">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Fabia</title>
@@ -122,6 +123,8 @@ table.st td.pc{font-weight:900}
 @keyframes fall{to{transform:translateY(110vh) rotate(260deg)}}
 @media (prefers-reduced-motion: reduce){ .pop,.bounce,.ans.wrong{animation:none} #fx{display:none} }
 </style>
+</head>
+<body>
 <main>
 <div class="topbar hidden" id="topbar"><button class="ghost back" id="homeBtn">🏠 Почетак</button></div>
 
@@ -637,4 +640,5 @@ renderHome();
 <script>
 if("serviceWorker" in navigator && location.protocol !== "file:"){ window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {})); }
 </script>
-</body></html>
+</body>
+</html>
